@@ -1,0 +1,38 @@
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.row {
+    clear: both;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
